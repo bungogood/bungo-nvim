@@ -23,7 +23,7 @@ require("lazy").setup({
             vim.cmd('colorscheme github_dark_default')
         end,
     },
-    { 'github/copilot.vim' },
+    'github/copilot.vim',
     {
         'nvim-telescope/telescope.nvim',
         dependencies = { 'nvim-lua/plenary.nvim' },
