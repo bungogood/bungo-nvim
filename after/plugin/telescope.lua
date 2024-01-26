@@ -5,8 +5,6 @@ vim.keymap.set("n", "<leader>pf", builtin.find_files)
 vim.keymap.set("n", "<leader>pg", builtin.git_files)
 vim.keymap.set("n", "<leader>ps", builtin.live_grep)
 
--- i want to be able to see gitignore which i cant currently see but i dont want anything in node_modules, dist, .venv venv .git etc
-
 telescope.setup({
     defaults = {
         hidden = true,
